@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Variable
+$bgcolor:pink;
+$fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+body{
+    background-color: $bgcolor;
+    font-family: $fontfamily;
+    font-size: 1.2rem;
+    color: white;
+}
