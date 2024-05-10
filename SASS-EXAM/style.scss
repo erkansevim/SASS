@@ -72,4 +72,42 @@ header{
 
         }
     }
+    img{
+    width: 30%;
+    max-width: 400px;
+    min-width: 200px;
+    }
+}
+
+// mixin
+
+@mixin myBox($backColor, $color){
+    width: 25%;
+    height: 15rem;
+    background-color: $backColor;
+    border-radius: 10px;
+    color: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    gap:1rem;
+    padding: 1rem;
+    .card1{
+       @include myBox(blue, yellow);
+    }
+    .card2{
+        @include myBox(green, yellow);
+
+    }
+    .card3{
+        @include myBox(brown, yellow);
+
+    }
+    .card4{
+        @include myBox(olive, yellow);
+
+    }
 }

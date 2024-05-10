@@ -56,5 +56,56 @@ header ul a {
   cursor: pointer;
   transform: scale(1.1);
 }
+.banner img {
+  width: 30%;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.cards .card1 {
+  width: 25%;
+  height: 15rem;
+  background-color: blue;
+  border-radius: 10px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card2 {
+  width: 25%;
+  height: 15rem;
+  background-color: green;
+  border-radius: 10px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card3 {
+  width: 25%;
+  height: 15rem;
+  background-color: brown;
+  border-radius: 10px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card4 {
+  width: 25%;
+  height: 15rem;
+  background-color: olive;
+  border-radius: 10px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
