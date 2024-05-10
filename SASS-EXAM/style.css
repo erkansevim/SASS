@@ -121,5 +121,8 @@ header ul a {
   border: 2px solid black;
   display: flex;
 }
+footer p {
+  background-color: red;
+}
 
 /*# sourceMappingURL=style.css.map */

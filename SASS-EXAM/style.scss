@@ -132,3 +132,17 @@ header{
         @extend .article1;
     }
 }
+
+footer{
+    $dark:3;
+
+    p{
+        @if $dark==1{
+            background-color: gray;
+        } @else if $dark==2{
+            background-color: olive;
+
+        } @else{
+            background-color: red;
+        }  }
+}
