@@ -146,3 +146,18 @@ footer{
             background-color: red;
         }  }
 }
+
+.social-icons{
+    display: flex;
+    height: 10rem;
+
+   @for $i from 1 through 5{
+    .social#{$i}{
+        width: 20%;
+        background-color: lighten(blue, $i*5);
+        font-size: 1rem *$i;
+        color:yellow;
+    }
+
+   }
+}
