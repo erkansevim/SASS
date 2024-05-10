@@ -11,4 +11,31 @@ body {
   color: white;
 }
 
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header img {
+  width: 80px;
+  border: 2px solid brown;
+  border-radius: 1rem;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+header ul li:hover {
+  text-decoration: underline;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,10 @@
 // Variable
 $bgcolor:pink;
 $fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontsize:1.2rem;
+$fontcolor:white;
+$navbgcolor:aqua;
+$myborder:2px solid brown;
 
 
 body{
@@ -13,4 +17,32 @@ body{
     font-family: $fontfamily;
     font-size: 1.2rem;
     color: white;
+}
+header{
+    background-color: $navbgcolor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    img{
+        width: 80px;
+        border:$myborder;
+        border-radius: 1rem;
+
+    }
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            padding: 1rem;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
