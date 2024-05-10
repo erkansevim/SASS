@@ -108,4 +108,18 @@ header ul a {
   align-items: center;
 }
 
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.articles .article1, .articles .article2 {
+  background-color: gray;
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
