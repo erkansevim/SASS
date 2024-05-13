@@ -1,15 +1,32 @@
-//sass --watch ./scss/main.scss:./css/main.css
-
-@import './abstracts/mixin';
+//abstracts
+@import './abstracts/mixins';
 @import './abstracts/variables';
-
+//base
 @import './base/reset';
-
-@import './compenents/footer';
-@import './compenents/nav';
-@import './compenents/responsive';
-
+//componenets
+@import './components/footer';
+@import './components/nav';
+@import './components/responsive';
+//pages
 @import './pages/about';
-@import './pages/contact';
 @import './pages/home';
-@import './pages/projescts';
+@import './pages/projects';
+@import './pages/contact';
+
+
+body{
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $primary-color;
+    height: 100vh;
+    line-height: 1;
+
+}
+
+a{
+    color: $text-color;
+}
+
+h1,h2,h3{
+    font-weight: 400;
+}

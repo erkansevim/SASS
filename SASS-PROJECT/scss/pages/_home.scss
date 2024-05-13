@@ -1,0 +1,11 @@
+
+
+.home-bgImg-container{
+    @include bgImg(100vh, $pathname1)
+}
+
+
+// .home{
+//   border: 2px solid red;
+//     height: 80vh;
+// }
